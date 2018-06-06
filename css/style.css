@@ -1,0 +1,20 @@
+html {
+    overflow-x: hidden;
+    background: black;
+}
+
+.white-font {
+    color:white;
+}
+
+#main {
+    z-index: 0;
+}
+
+#canvas {
+  width: 100vw;
+  height: 94vh;
+  top: 0;
+  z-index: -1;
+  position: absolute;
+}
