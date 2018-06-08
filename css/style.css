@@ -7,14 +7,34 @@ html {
     color:white;
 }
 
+/* Cause background has to be in the back you know 8)  200 IQ */
 #main {
     z-index: 0;
 }
 
+/* that's the beautiful background that you can see */
 #canvas {
   width: 100vw;
   height: 94vh;
   top: 0;
   z-index: -1;
   position: absolute;
+}
+
+/* Yeet that background higher for mobile devices */
+@media only screen and (max-width: 600px) {
+    #canvas {
+        height: 280vh;
+    }
+}
+
+/* Equal heights == Equal rights? */
+.card {
+    min-height: 556px;
+}
+
+/* Spacing between social media buttons*/
+.fab {
+    margin-right: 8px;
+    margin-left: 8px;
 }
