@@ -26,7 +26,7 @@ presets.o = function (x, y, s, dx, dy) {
             ctx.beginPath();
             ctx.arc(this.x + + Math.sin((50 + x + (t / 10)) / 100) * 3, this.y + + Math.sin((45 + x + (t / 10)) / 100) * 4, this.r, 0, 2 * Math.PI, false);
             ctx.lineWidth = this.w;
-            ctx.strokeStyle = '#fff';
+            ctx.strokeStyle = '#000';
             ctx.stroke();
         }
     }
@@ -64,8 +64,8 @@ presets.x = function (x, y, s, dx, dy, dr, r) {
             ctx.translate(this.x + Math.sin((x + (t / 10)) / 100) * 5, this.y + Math.sin((10 + x + (t / 10)) / 100) * 2);
             ctx.rotate(this.r * Math.PI / 180);
             
-            line(-1, -1, 1, 1, '#fff');
-            line(1, -1, -1, 1, '#fff');
+            line(-1, -1, 1, 1, '#000');
+            line(1, -1, -1, 1, '#000');
             
             ctx.restore();
         }
