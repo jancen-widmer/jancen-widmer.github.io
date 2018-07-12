@@ -1,0 +1,17 @@
+@media only screen and (min-width: 768px) {
+  body {
+    margin-left: 40vw;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  background: #59b7dd;
+  color: #fff;
+  text-align: center;
+  align-content: center;
+}
+
+.store-button {
+  max-width: 200px;
+}
