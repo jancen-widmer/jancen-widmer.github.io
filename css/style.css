@@ -1,41 +1,63 @@
-html {
-    overflow-x: hidden;
-    background: white;
+@media only screen and (max-width: 760px) {
+  .spacing {
+    height: 2.5vh;
+  }
+  .spacing-sight-check {
+    height: 5vh;
+  }
+  .l1 {
+    display: none;
+  }
 }
 
+@media only screen and (min-width: 760px) {
+  .spacing {
+    height: 10vh;
+  }
+  .spacing-sight-check {
+    height: 17.5vh;
+  }
+}
+
+html {
+  overflow-x: hidden;
+  background: white;
+  color: #212121;
+}
+
+nav {
+  background-color: #212121;
+}
+
+.betternote {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/betternote-block.jpeg");
+}
+
+.betternote > * {
+  color: white;
+}
+
+.dark {
+  color: #fff;
+  background: #212121;
+}
+
+.store-button {
+  max-width: 200px;
+}
 
 .white-font {
-    color:white;
-}
-
-/* Cause background has to be in the back you know 8)  200 IQ */
-#main {
-    z-index: 0;
-}
-
-/* that's the beautiful background that you can see */
-#canvas {
-  width: 100vw;
-  height: 94vh;
-  top: 0;
-  z-index: -1;
-  position: absolute;
-}
-
-/* Yeet that background higher for mobile devices */
-@media only screen and (max-width: 600px) {
-    #canvas {
-        height: 280vh;
-    }
+  color: #fff;
 }
 
 /* Equal heights == Equal rights? */
 .min-height {
-    min-height: 556px;
+  min-height: 556px;
 }
 
 /* Spacing between social media buttons*/
 .fab {
-    margin-right: 8px;
-    margin-left: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
 }
