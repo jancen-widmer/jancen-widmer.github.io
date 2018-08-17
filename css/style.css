@@ -33,11 +33,6 @@ html {
   color: #212121;
 }
 
-/* I am a proud owner of a navbar 8) */
-nav {
-  background-color: #212121;
-}
-
 /* Coolest product ever */
 .betternote {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -58,11 +53,6 @@ nav {
 /* I don't actually own a store :( That's the Google Play Store Button */
 .store-button {
   max-width: 200px;
-}
-
-/* Who reads CSS comments.. */
-.white-font {
-  color: #fff;
 }
 
 /* Equal heights == Equal rights? */
