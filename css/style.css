@@ -1,3 +1,4 @@
+/* Mobile rules */
 @media only screen and (max-width: 760px) {
   .spacing {
     height: 2.5vh;
@@ -10,43 +11,56 @@
   }
 }
 
+/* Desktop / Tablet rules */
 @media only screen and (min-width: 760px) {
   .spacing {
-    height: 10vh;
+    height: 2.5vh;
   }
   .spacing-sight-check {
     height: 17.5vh;
   }
 }
 
+/* First letter of the alphabet */
+a {
+  color: #39cccc;
+}
+
+/* https://de.wikipedia.org/wiki/Hypertext_Markup_Language */
 html {
   overflow-x: hidden;
   background: white;
   color: #212121;
 }
 
+/* I am a proud owner of a navbar 8) */
 nav {
   background-color: #212121;
 }
 
+/* Coolest product ever */
 .betternote {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/betternote-block.jpeg");
 }
 
+/* Coolest product ever */
 .betternote > * {
   color: white;
 }
 
+/* Alternative bright */
 .dark {
   color: #fff;
   background: #212121;
 }
 
+/* I don't actually own a store :( That's the Google Play Store Button */
 .store-button {
   max-width: 200px;
 }
 
+/* Who reads CSS comments.. */
 .white-font {
   color: #fff;
 }
@@ -60,4 +74,10 @@ nav {
 .fab {
   margin-right: 8px;
   margin-left: 8px;
+}
+
+/* Different resolutions but one appearance? Pfffff */
+.resize-img {
+  width: 200px;
+  height: auto;
 }
