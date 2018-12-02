@@ -34,13 +34,18 @@ html {
 }
 
 /* Coolest product ever */
-.betternote {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/betternote-block.jpeg");
+.sightcheck2 {
+  background: linear-gradient(
+      rgba(9.8, 46.3, 82.4, 0.4),
+      rgba(9.8, 46.3, 82.4, 0.4)
+    ),
+    url('../images/sightcheck.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Coolest product ever */
-.betternote > * {
+.sightcheck2 > * {
   color: white;
 }
 
