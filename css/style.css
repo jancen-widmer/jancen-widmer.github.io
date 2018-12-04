@@ -33,19 +33,24 @@ html {
   color: #212121;
 }
 
+.sli {
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../images/sli.gif') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
 /* Coolest product ever */
-.sightcheck2 {
-  background: linear-gradient(
-      rgba(9.8, 46.3, 82.4, 0.4),
-      rgba(9.8, 46.3, 82.4, 0.4)
-    ),
+.sightcheck {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url('../images/sightcheck.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 /* Coolest product ever */
-.sightcheck2 > * {
+.sightcheck > * {
   color: white;
 }
 
@@ -63,6 +68,40 @@ html {
 /* Equal heights == Equal rights? */
 .min-height {
   min-height: 556px;
+}
+
+/* A couple of image scrims */
+.hackathon-image {
+  height: 25vh;
+  background: linear-gradient(
+      rgba(9.8, 46.3, 82.4, 0.4),
+      rgba(9.8, 46.3, 82.4, 0.4)
+    ),
+    url('../images/hackathon.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.code-image {
+  height: 25vh;
+  background: linear-gradient(
+      rgba(9.8, 46.3, 82.4, 0.4),
+      rgba(9.8, 46.3, 82.4, 0.4)
+    ),
+    url('../images/competition.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.robot-image {
+  height: 25vh;
+  background: linear-gradient(
+      rgba(9.8, 46.3, 82.4, 0.4),
+      rgba(9.8, 46.3, 82.4, 0.4)
+    ),
+    url('../images/burda.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Spacing between social media buttons*/
