@@ -26,6 +26,11 @@ a {
   color: #39cccc;
 }
 
+/* To really really stand out (headings only) */
+.primary-dark {
+  color: ;
+}
+
 /* https://de.wikipedia.org/wiki/Hypertext_Markup_Language */
 html {
   overflow-x: hidden;
@@ -41,6 +46,14 @@ html {
   transition: 1s opacity;
 }
 
+/* For the productive people out there */
+.shorty {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../images/shorty.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* Coolest product ever */
 .sightcheck {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -50,6 +63,7 @@ html {
 }
 
 /* Coolest product ever */
+.shorty,
 .sightcheck > * {
   color: white;
 }
