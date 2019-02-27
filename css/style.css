@@ -35,8 +35,7 @@ html {
 
 /* I hope future me will be a CTO next time I smile down on my fresh CSS comments*/
 .profile {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../images/profile-background.jpg');
+  background: linear-gradient(rgba(22, 51, 80, 0.8), rgba(22, 51, 80, 0.8));
   background-size: cover;
   background-repeat: no-repeat;
 }
