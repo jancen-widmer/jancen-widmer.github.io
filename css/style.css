@@ -26,11 +26,6 @@ a {
   color: #39cccc;
 }
 
-/* To really really stand out (headings only) */
-.primary-dark {
-  color: ;
-}
-
 /* https://de.wikipedia.org/wiki/Hypertext_Markup_Language */
 html {
   overflow-x: hidden;
@@ -38,6 +33,15 @@ html {
   color: #212121;
 }
 
+/* I hope future me will be a CTO next time I smile down on my fresh CSS comments*/
+.profile {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../images/profile-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Probably the coolest thing I will do this summer */
 .sli {
   color: #fff;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -46,15 +50,7 @@ html {
   transition: 1s opacity;
 }
 
-/* For the productive people out there */
-.shorty {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('../images/shorty.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-/* Coolest product ever */
+/* My first product :) */
 .sightcheck {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url('../images/sightcheck.jpg');
@@ -62,8 +58,8 @@ html {
   background-repeat: no-repeat;
 }
 
-/* Coolest product ever */
-.shorty,
+/* I will never forget you <3 */
+.profile,
 .sightcheck > * {
   color: white;
 }
