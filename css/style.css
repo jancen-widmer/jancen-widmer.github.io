@@ -1,3 +1,11 @@
+@media only screen and (min-width: 1200px) {
+  .product-text {
+    margin-top: 20%;
+    height: 20%;
+    vertical-align: middle;
+  }
+}
+
 /* https://de.wikipedia.org/wiki/Hypertext_Markup_Language */
 html {
   overflow-x: hidden;
@@ -10,15 +18,13 @@ html {
 
 /* First letter of the alphabet */
 a {
-  color: #39cccc;
+  color: #03a9f4;
 }
 
 /* I hope future me will be a CTO next time I smile down on my fresh CSS comments*/
 .profile {
-  background: linear-gradient(rgba(22, 51, 80, 0.8), rgba(22, 51, 80, 0.8));
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
 }
 
 /* I don't actually own a store :( That's the Google Play Store Button */
@@ -38,7 +44,7 @@ a {
       rgba(9.8, 46.3, 82.4, 0.4),
       rgba(9.8, 46.3, 82.4, 0.4)
     ),
-    url('../images/hackathon.jpeg');
+    url("../images/hackathon.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -49,7 +55,7 @@ a {
       rgba(9.8, 46.3, 82.4, 0.4),
       rgba(9.8, 46.3, 82.4, 0.4)
     ),
-    url('../images/competition.jpeg');
+    url("../images/competition.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -60,7 +66,7 @@ a {
       rgba(9.8, 46.3, 82.4, 0.4),
       rgba(9.8, 46.3, 82.4, 0.4)
     ),
-    url('../images/burda.jpeg');
+    url("../images/burda.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
