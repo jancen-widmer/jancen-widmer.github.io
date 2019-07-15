@@ -1,24 +1,11 @@
-/* Mobile rules */
-@media only screen and (max-width: 760px) {
-  .spacing {
-    height: 2.5vh;
-  }
-  .spacing-sight-check {
-    height: 5vh;
-  }
-  .l1 {
-    display: none;
-  }
-}
-
-/* Desktop / Tablet rules */
-@media only screen and (min-width: 760px) {
-  .spacing {
-    height: 2.5vh;
-  }
-  .spacing-sight-check {
-    height: 17.5vh;
-  }
+/* https://de.wikipedia.org/wiki/Hypertext_Markup_Language */
+html {
+  overflow-x: hidden;
+  color: #212121;
+  background: white;
+  background-image: url(../images/cool-background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* First letter of the alphabet */
@@ -26,47 +13,12 @@ a {
   color: #39cccc;
 }
 
-/* https://de.wikipedia.org/wiki/Hypertext_Markup_Language */
-html {
-  overflow-x: hidden;
-  background: white;
-  color: #212121;
-}
-
 /* I hope future me will be a CTO next time I smile down on my fresh CSS comments*/
 .profile {
   background: linear-gradient(rgba(22, 51, 80, 0.8), rgba(22, 51, 80, 0.8));
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-/* Probably the coolest thing I will do this summer */
-.sli {
-  color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../images/sli.gif') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-}
-
-/* My first product :) */
-.sightcheck {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('../images/sightcheck.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-/* I will never forget you <3 */
-.profile,
-.sightcheck > * {
   color: white;
-}
-
-/* Alternative bright */
-.dark {
-  color: #fff;
-  background: #212121;
 }
 
 /* I don't actually own a store :( That's the Google Play Store Button */
