@@ -29,6 +29,7 @@ a {
 
 /* I don't actually own a store :( That's the Google Play Store Button */
 .store-button {
+  vertical-align: middle;
   max-width: 200px;
 }
 
